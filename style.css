@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(42, 42, 51);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: antiquewhite
+}
+
+#score-label,
+#score-container {
+  display: flex;
+  justify-content: center;
+}
+.label {
+  color: antiquewhite;
+  font-size: 30px;
+  margin-top: 80px;
+  margin-left: 10px;
+  padding: 0 40px;
+}
+.score {
+  color: antiquewhite;
+  font-size: 80px;
+  padding: 0px 40px;
+}
+
+
+#btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+  .button img {
+    width: 150px;
+    
+  }
+  .button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 1px 1px;
+  }
+  #scissors{
+    transform: rotate(-90deg);
+  }
+
+  

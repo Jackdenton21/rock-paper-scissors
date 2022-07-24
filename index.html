@@ -3,10 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <title>Page Title</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
+
 <body>
 
+  <div id="header">
+    <h1>ROCK PAPER OR SCISSORS?</h1>
+  </div>
+
+  <div id="btn-container">
+    <div id="rock" class="button">
+      <img src="appleFist.png" alt="Rock" />
+    </div>
+    <div id="paper" class="button">
+      <img src="appleWave.png" alt="Paper" />
+    </div>
+    <div id="scissors" class="button">
+      <img src="applePeace.png" alt="Scissors" />
+    </div>
+  </div>
+
+
+  <div id="score-label">
+    <p class="label"><b>You</b></p>
+    <p class="label"><b>The Computer</b></p>
+  </div>
+  <div id="score-container">
+    <div id="player-score" class="score">0</div>
+    <div id="computer-score" class="score">0</div>
+  </div>
+
+
+
   <script src="index.js"> </script>
+
 
 </body>
 </html>
